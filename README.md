@@ -22,3 +22,5 @@ pip install -r requirements.txt
 * install IORN
 '''
 cd ImprovedORN/IORN_install/install/
+bash install.sh
+'''
