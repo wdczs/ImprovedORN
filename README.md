@@ -16,8 +16,9 @@ IOR4-VGG16 are mainly tested on [NWPU-RESISC45](http://www.escience.cn/people/Ju
 ## Prerequisites
 * Linux(Ubuntu 16.04)
 * install dependencies
-'''pip install -r requirements.txt
-'''
+	```
+	pip install -r requirements.txt
+	```
 * install IORN
 '''
 cd ImprovedORN/IORN_install/install/
