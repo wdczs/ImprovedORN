@@ -8,7 +8,7 @@ Remote sensing images captured by satellites, however, usually show varied orien
 Based on orientated response network ([ORN](https://arxiv.org/abs/1701.01833)), we design Improved orientated response network (IORN).
 We use the VGG16 model as our fundamental network. Then, we upgrade the original VGG16 with 3x3x4 A-ARFs and S-ORAlign to create the IOR4-VGG16 model.
 
-<img src='pic/arch.png' width='400' align='center'/>
+<img src='pic/arch.png' width='400'>
 
 ## Experimental result
 IOR4-VGG16 are mainly tested on [NWPU-RESISC45](http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html) and [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html).
@@ -27,4 +27,7 @@ bash install.sh
 ```
 
 ## Train IOR4-VGG16 on UCM
-1. download pre-trained IOR4-VGG16 (90 epoches on Imagenet) from [OneDrive] or [BaiduYun](https://pan.baidu.com/s/1e39zySQtMZ9kRcc9bSo-lA). Then move the pre-trained to
+1. download pre-trained IOR4-VGG16 (90 epoches on Imagenet) from [OneDrive] or [BaiduYun](https://pan.baidu.com/s/1e39zySQtMZ9kRcc9bSo-lA). Then move the pre-trained moedl to ImprovedORN/pretrained_model/
+2. download [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html), and make sure it looks like this:
+```
+
