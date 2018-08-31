@@ -32,7 +32,7 @@ bash install.sh
 ```
 .../ImprovedORN/datasets/UCMerced_LandUse/Images/
 ```
-3.train IOR4-VGG16 on UCM
+3. train IOR4-VGG16 on UCM
 ```
 python main_vgg16_0.5.py
 ```
