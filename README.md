@@ -40,3 +40,4 @@ IOR4-VGG16 are mainly tested on [NWPU-RESISC45](http://www.escience.cn/people/Ju
 	```
 	python main_vgg16_0.5.py
 	```
+4. you can find the confusion matrix file(csv), Visualizing file for tensorboard and model checkpoint in timestamp folder.
