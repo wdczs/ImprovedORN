@@ -27,7 +27,12 @@ bash install.sh
 ```
 
 ## Train IOR4-VGG16 on UCM
-1. download pre-trained IOR4-VGG16 (90 epoches on Imagenet) from [OneDrive] or [BaiduYun](https://pan.baidu.com/s/1e39zySQtMZ9kRcc9bSo-lA). Then move the pre-trained moedl to ImprovedORN/pretrained_model/
+1. download pre-trained IOR4-VGG16 (90 epoches on Imagenet) from [OneDrive](https://1drv.ms/u/s!AseOni9i6qlubypHdgKxxcNA5s8) or [BaiduYun](https://pan.baidu.com/s/1e39zySQtMZ9kRcc9bSo-lA). Then move the pre-trained moedl to ImprovedORN/pretrained_model/
 2. download [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html), and make sure it looks like this:
 ```
-
+.../ImprovedORN/datasets/UCMerced_LandUse/Images/
+```
+3.train IOR4-VGG16 on UCM
+```
+python main_vgg16_0.5.py
+```
