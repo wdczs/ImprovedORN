@@ -20,6 +20,10 @@ IOR4-VGG16 are mainly tested on [NWPU-RESISC45](http://www.escience.cn/people/Ju
 	```
 	pip install -r requirements.txt
 	```
+* install tensorboardX
+	```
+	pip install tensorflow tensorboardX
+	```
 * install IORN
 	```
 	cd ImprovedORN/IORN_install/install/
