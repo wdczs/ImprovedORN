@@ -15,7 +15,7 @@ IOR4-VGG16 are mainly tested on [NWPU-RESISC45](http://www.escience.cn/people/Ju
 <img src='pic/result.png' width='850'>
 
 ## Prerequisites
-* Linux(Ubuntu 16.04)
+* Linux(Ubuntu 16.04), cuda 8.0, cudnn 7.0, pytorch 0.3.1
 * install dependencies
 	```
 	pip install -r requirements.txt
